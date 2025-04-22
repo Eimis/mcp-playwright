@@ -1,5 +1,5 @@
 {
-  "name": "@executeautomation/playwright-mcp-server",
+  "name": "@eimsto/playwright-mcp-server",
   "version": "0.2.7",
   "description": "Model Context Protocol servers for Playwright",
   "license": "MIT",
@@ -25,13 +25,18 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.4.1",
-    "playwright": "1.50.0",
-    "@playwright/browser-chromium": "1.50.0"
+    "@playwright/browser-chromium": "1.50.0",
+    "playwright": "1.50.0"
   },
-  "keywords": ["playwright", "automation", "AI", "Claude MCP"],
+  "keywords": [
+    "playwright",
+    "automation",
+    "AI",
+    "Claude MCP"
+  ],
   "devDependencies": {
     "@types/node": "^20.10.5",
     "shx": "^0.3.4",
-    "typescript": "^5.6.2"
+    "typescript": "^5.7.3"
   }
 }
